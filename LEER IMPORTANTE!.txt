@@ -1,0 +1,6 @@
+1- INSTALAR LIBRERIA TABULATE
+COMANDO: pip install tabulate 
+IMPORTANTE REINICIAR LUEGO DE INSTALAR
+
+2- INSTALAR MYSQL
+COMANDO: pip install mysql-connector-python
