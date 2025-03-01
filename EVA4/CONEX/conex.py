@@ -1,15 +1,20 @@
 import mysql.connector
-from mysql.connector import Error
 
 def conex():
     try:
-        myconn = mysql.connector.connect(
+        conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="",
-            database="prueba4"
+            password="",  # Ajusta según corresponda
+            database="prueba4",
+            charset="utf8mb4",
+            collation="utf8mb4_general_ci"
         )
-        return myconn
-    except Error as ex:
-        print(f"Error de conexión: {ex}")
+
+        if conn.is_connected():
+            print("Conexión exitosa a la base de datos")
+            return conn
+
+    except mysql.connector.Error as err:
+        print(f"Error de conexión: {err}")
         return None
