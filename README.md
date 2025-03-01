@@ -1,10 +1,8 @@
-Aquí tienes el contenido en formato Markdown:  
-
-```md
 # StarCoffee CRUD System
 
 ¡Bienvenido al sistema de gestión de clientes para StarCoffee!  
-Este proyecto proporciona una interfaz de línea de comandos para gestionar clientes de una cafetería, permitiendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la exportación/importación de datos en formato JSON.
+Este proyecto proporciona una interfaz de línea de comandos para gestionar clientes de una cafetería,
+permitiendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la exportación/importación de datos en formato JSON.
 
 ## Características
 - **Gestión de Clientes**: Agregar, actualizar, eliminar y listar clientes.
@@ -44,4 +42,4 @@ Este proyecto proporciona una interfaz de línea de comandos para gestionar clie
 - `CLASES/`: Contiene las clases utilizadas en el proyecto.
 - `MENU/`: Contiene los menús interactivos para la gestión de clientes y JSON.
 - `main.py`: Punto de entrada del programa.
-```
+  
