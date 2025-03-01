@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-12-2023 a las 20:30:51
--- Versión del servidor: 10.4.32-MariaDB
+-- Tiempo de generación: 01-03-2025 a las 04:53:09
+-- Versión del servidor: 11.5.2-MariaDB
 -- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `prueba4`
 --
-CREATE DATABASE IF NOT EXISTS `prueba4` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `prueba4`;
 
 -- --------------------------------------------------------
 
